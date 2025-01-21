@@ -35,6 +35,17 @@
   font-size: 25px;
   margin-right: 5px;
 }
+.Card-head{
+    text-align: center;
+    margin-top: 24px;
+  }
+  .Card-head h1{
+    font-size: 36px;
+  }
+  .Card-head p{
+    font-size: 18px;
+    margin-top: 14px;
+  }
 
     </style>
 </head>
@@ -61,8 +72,8 @@
                   Games
                 </a>
                 <ul class="dropdown-menu bg-look bg-hover">
-                  <li><a class="dropdown-item text-black" href="#">Subway Surfers</a></li>
-                  <li><a class="dropdown-item text-black" href="#">Minecraft Bedrock</a></li>
+                  <li><a class="dropdown-item text-black" href="#">Animated Photo</a></li>
+                  <li><a class="dropdown-item text-black" href="#">Pixel Photo</a></li>
                   <li><hr class="dropdown-divider text-black"></li>
                   <li><a class="dropdown-item  text-black" href="#">More</a></li>
                 </ul>
@@ -78,9 +89,38 @@
           </div>
         </div>
       </nav>
-
-
+      <div id="carouselExampleAutoplaying" class="carousel slide" style="height: 450px;" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Banner.png" class="d-block w-100" style="height: 450px;" alt="Logo">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Hubix (1).png" class="d-block w-100" style="height: 450px;" alt="logo2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Hubix (2).png" class="d-block w-100" style="height: 450px;" alt="logo3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <main>
+        <!-- Main -->
+        <div class="Card-head" id="card-sec">
+          <h1>
+            Our Best Art For Sell!
+       </h1>
+       <p>The Pixel Arts</p>
+        </div>
+      </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Link For Functions -->
+    
 </body>
 </html>
